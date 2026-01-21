@@ -1,11 +1,7 @@
-# example-plugin 插件
+# 示例.基础 (example-plugin)
 
-该仓库包含 OrbiBoard 主程序的 example-plugin 插件源码。
+## 简介
+这是一个基础示例插件，用于演示窗口创建与接口调用。
 
-用法
-- 将本目录作为独立 Git 仓库管理。
-- 依赖请在 `plugin.json` 的 `npmDependencies` 或 `dependencies` 中声明，由主程序在运行时通过插件依赖管理安装。
-
-开发
-- 页面入口：`index.html`
-- 后端入口：`index.js`
+## 功能
+- **打开窗口**: 打开一个简单的示例窗口。
